@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PokemonList from './PokemonList';
-import SearchBar from "./SearchBar";;
+import SearchBar from "./SearchBar";
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
